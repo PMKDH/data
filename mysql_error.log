@@ -367,3 +367,28 @@ Version: '10.1.35-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 Version: '10.1.35-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
 2018-09-19  2:37:43 5388 [ERROR] mysqld.exe: Table '.\congenitos\wp_quick_chat_users' is marked as crashed and should be repaired
 2018-09-19  2:37:43 5388 [Warning] Checking table:   '.\congenitos\wp_quick_chat_users'
+2018-09-19 02:41:37 2498 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-19  2:41:37 9368 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-19  2:41:37 9368 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-19  2:41:37 9368 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-19  2:41:37 9368 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-19  2:41:37 9368 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-19  2:41:37 9368 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-19  2:41:37 9368 [Note] InnoDB: Using generic crc32 instructions
+2018-09-19  2:41:37 9368 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-19  2:41:37 9368 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-19  2:41:37 9368 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-19  2:41:37 9368 [Note] InnoDB: Starting crash recovery from checkpoint LSN=12074598
+2018-09-19  2:41:37 9368 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-19  2:41:38 9368 [Note] InnoDB: Starting final batch to recover 6 pages from redo log
+2018-09-19  2:41:38 9368 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-19  2:41:38 9368 [Note] InnoDB: Waiting for purge to start
+2018-09-19  2:41:38 9368 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.39-83.1 started; log sequence number 12076707
+2018-09-19  2:41:38 8980 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-19  2:41:38 9368 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-19  2:41:38 9368 [Note] Server socket created on IP: '::'.
+2018-09-19  2:41:38 9368 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.35-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-19  2:41:39 9188 [ERROR] mysqld.exe: Table '.\congenitos\wp_quick_chat_users' is marked as crashed and should be repaired
+2018-09-19  2:41:39 9188 [Warning] Checking table:   '.\congenitos\wp_quick_chat_users'
